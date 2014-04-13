@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleView" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textBall1"
+                android:text="11" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textBall2"
+                android:text="22" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textBall3"
+                android:text="33" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textBall4"
+                android:text="44" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textBall5"
+                android:text="55" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textMegaBall"
+                android:text="MB" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
