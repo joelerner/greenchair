@@ -47,7 +47,7 @@ public class AddBallSetActivity extends Activity
 			{
 				log("Entered cancelButton.OnClickListener.onClick()");
 
-				// DONE - Implement onClick().
+				// DONE - Implement onClick()
 				finish();
 
 			}
